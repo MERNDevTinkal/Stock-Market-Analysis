@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis</title>
+    <script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">Stock Market Analysis</h1>
+    </header>
+
+    <main>
+        <div class="chart-list-cont">
+            <div id="chart"></div>
+            <div id="stock-list"></div>
+        </div>
+
+        <div id="time-frame-btns">
+            <button id="one-month-btn" class="time-changer-btn" time="1mo">1 Month</button>
+            <button id="three-month-btn" class="time-changer-btn" time="3mo">3 Months</button>
+            <button id="one-year-btn" class="time-changer-btn" time="1y">1 Year</button>
+            <button id="five-years-btn" class="time-changer-btn selected-time-btn" time="5y">5 Years</button>
+        </div>
+
+        <div id="stock-info">
+
+        </div>
+    </main>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

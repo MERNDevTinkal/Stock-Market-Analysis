@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+#heading {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.chart-list-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* #chart {
+  
+} */
+
+#stock-list {
+  background-color: whitesmoke;
+  border: 2px solid green;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+
+.stock-list-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: cyan;
+  color: block;
+  margin: 10px 10px 0px 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  width: 70px;
+  cursor: pointer;
+}
+
+.stock-list-value {
+  display: inline-block;
+  width: 70px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.stock-list-profit {
+  display: inline-block;
+  width: 70px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.profit {
+  color: green;
+}
+
+.loss {
+  color: red;
+}
+
+#stock-info {
+  background-color: whitesmoke;
+  width: 70%;
+  margin: 50px 13%;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.display-ib {
+  display: inline-block;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+#time-frame-btns {
+  position: relative;
+  left: 20%;
+}
+
+.time-changer-btn {
+  cursor: pointer;
+  background-color: darkseagreen;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.selected-time-btn {
+  background-color: chartreuse;
+}
+
+.selected-stock {
+  background-color: deepskyblue;
+}
